@@ -16,6 +16,7 @@
 		0B4D403E27A703D400707663 /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D403A27A703D400707663 /* fa-regular-400.ttf */; };
 		0B4D403F27A703D400707663 /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D403B27A703D400707663 /* fa-solid-900.ttf */; };
 		0B4D404D27A703EF00707663 /* FontAwesomeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D404927A703EF00707663 /* FontAwesomeIcon.swift */; };
+		0B4D404F27A703F000707663 /* FontNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D404B27A703EF00707663 /* FontNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0B4D403A27A703D400707663 /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-regular-400.ttf"; sourceTree = "<group>"; };
 		0B4D403B27A703D400707663 /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
 		0B4D404927A703EF00707663 /* FontAwesomeIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeIcon.swift; sourceTree = "<group>"; };
+		0B4D404B27A703EF00707663 /* FontNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontNames.swift; sourceTree = "<group>"; };
 		0B4D405027A7041800707663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 		0B4D403527A703B100707663 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0B4D404B27A703EF00707663 /* FontNames.swift */,
 				0B4D404927A703EF00707663 /* FontAwesomeIcon.swift */,
 			);
 			path = Models;
@@ -176,6 +179,7 @@
 			files = (
 				0B4D402A27A7037D00707663 /* ContentView.swift in Sources */,
 				0B4D404D27A703EF00707663 /* FontAwesomeIcon.swift in Sources */,
+				0B4D404F27A703F000707663 /* FontNames.swift in Sources */,
 				0B4D402827A7037D00707663 /* IconGalleryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
