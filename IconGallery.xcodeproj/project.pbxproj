@@ -17,6 +17,7 @@
 		0B4D403F27A703D400707663 /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D403B27A703D400707663 /* fa-solid-900.ttf */; };
 		0B4D404427A703E400707663 /* IconList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D404027A703E400707663 /* IconList.swift */; };
 		0B4D404527A703E400707663 /* IconDetailsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D404127A703E400707663 /* IconDetailsTab.swift */; };
+		0B4D404627A703E400707663 /* IconDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D404227A703E400707663 /* IconDetails.swift */; };
 		0B4D404727A703E400707663 /* IconPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D404327A703E400707663 /* IconPreview.swift */; };
 		0B4D404C27A703EF00707663 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D404827A703EF00707663 /* ModelData.swift */; };
 		0B4D404D27A703EF00707663 /* FontAwesomeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D404927A703EF00707663 /* FontAwesomeIcon.swift */; };
@@ -36,6 +37,7 @@
 		0B4D403B27A703D400707663 /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
 		0B4D404027A703E400707663 /* IconList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconList.swift; sourceTree = "<group>"; };
 		0B4D404127A703E400707663 /* IconDetailsTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconDetailsTab.swift; sourceTree = "<group>"; };
+		0B4D404227A703E400707663 /* IconDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconDetails.swift; sourceTree = "<group>"; };
 		0B4D404327A703E400707663 /* IconPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPreview.swift; sourceTree = "<group>"; };
 		0B4D404827A703EF00707663 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		0B4D404927A703EF00707663 /* FontAwesomeIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeIcon.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		0B4D403727A703BC00707663 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0B4D404227A703E400707663 /* IconDetails.swift */,
 				0B4D404127A703E400707663 /* IconDetailsTab.swift */,
 				0B4D404027A703E400707663 /* IconList.swift */,
 				0B4D404327A703E400707663 /* IconPreview.swift */,
@@ -203,6 +206,7 @@
 				0B4D402A27A7037D00707663 /* ContentView.swift in Sources */,
 				0B4D404727A703E400707663 /* IconPreview.swift in Sources */,
 				0B4D404D27A703EF00707663 /* FontAwesomeIcon.swift in Sources */,
+				0B4D404627A703E400707663 /* IconDetails.swift in Sources */,
 				0B4D404527A703E400707663 /* IconDetailsTab.swift in Sources */,
 				0B4D404F27A703F000707663 /* FontNames.swift in Sources */,
 				0B4D404E27A703EF00707663 /* ColorExtensions.swift in Sources */,
