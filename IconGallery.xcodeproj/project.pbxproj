@@ -11,7 +11,10 @@
 		0B4D402A27A7037D00707663 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D402927A7037D00707663 /* ContentView.swift */; };
 		0B4D402C27A7037D00707663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D402B27A7037D00707663 /* Assets.xcassets */; };
 		0B4D402F27A7037D00707663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D402E27A7037D00707663 /* Preview Assets.xcassets */; };
+		0B4D403C27A703D400707663 /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D403827A703D400707663 /* fa-brands-400.ttf */; };
 		0B4D403D27A703D400707663 /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D403927A703D400707663 /* icons.json */; };
+		0B4D403E27A703D400707663 /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D403A27A703D400707663 /* fa-regular-400.ttf */; };
+		0B4D403F27A703D400707663 /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D403B27A703D400707663 /* fa-solid-900.ttf */; };
 		0B4D404D27A703EF00707663 /* FontAwesomeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D404927A703EF00707663 /* FontAwesomeIcon.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,8 +24,12 @@
 		0B4D402927A7037D00707663 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B4D402B27A7037D00707663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B4D402E27A7037D00707663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B4D403827A703D400707663 /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.ttf"; sourceTree = "<group>"; };
 		0B4D403927A703D400707663 /* icons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = icons.json; sourceTree = "<group>"; };
+		0B4D403A27A703D400707663 /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-regular-400.ttf"; sourceTree = "<group>"; };
+		0B4D403B27A703D400707663 /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
 		0B4D404927A703EF00707663 /* FontAwesomeIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeIcon.swift; sourceTree = "<group>"; };
+		0B4D405027A7041800707663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +62,9 @@
 		0B4D402627A7037D00707663 /* IconGallery */ = {
 			isa = PBXGroup;
 			children = (
-				0B4D402727A7037D00707663 /* IconGalleryApp.swift */,
+				0B4D405027A7041800707663 /* Info.plist */,
 				0B4D402927A7037D00707663 /* ContentView.swift */,
+				0B4D402727A7037D00707663 /* IconGalleryApp.swift */,
 				0B4D402B27A7037D00707663 /* Assets.xcassets */,
 				0B4D403527A703B100707663 /* Models */,
 				0B4D402D27A7037D00707663 /* Preview Content */,
@@ -84,6 +92,9 @@
 		0B4D403627A703B700707663 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0B4D403827A703D400707663 /* fa-brands-400.ttf */,
+				0B4D403A27A703D400707663 /* fa-regular-400.ttf */,
+				0B4D403B27A703D400707663 /* fa-solid-900.ttf */,
 				0B4D403927A703D400707663 /* icons.json */,
 			);
 			path = Resources;
@@ -148,6 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B4D402F27A7037D00707663 /* Preview Assets.xcassets in Resources */,
+				0B4D403E27A703D400707663 /* fa-regular-400.ttf in Resources */,
+				0B4D403C27A703D400707663 /* fa-brands-400.ttf in Resources */,
+				0B4D403F27A703D400707663 /* fa-solid-900.ttf in Resources */,
 				0B4D403D27A703D400707663 /* icons.json in Resources */,
 				0B4D402C27A7037D00707663 /* Assets.xcassets in Resources */,
 			);
@@ -296,6 +310,7 @@
 				DEVELOPMENT_TEAM = YHXLE4667A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IconGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +340,7 @@
 				DEVELOPMENT_TEAM = YHXLE4667A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IconGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
