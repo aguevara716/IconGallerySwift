@@ -11,9 +11,9 @@ struct ContentView: View {
     @EnvironmentObject var modelData: ModelData
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        IconList()
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
